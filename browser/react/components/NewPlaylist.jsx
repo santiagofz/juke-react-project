@@ -1,6 +1,7 @@
 import React from 'react';
 import ErrorDisplay from './ErrorDisplay';
 
+
 const NewPlaylist = ({ handleChange, handleSubmit, value, invalidLength, hasChanged }) => (
   <div className="well">
     <form className="form-horizontal" onSubmit={handleSubmit}>
