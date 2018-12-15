@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default ({ albums }) => (
   <div className="albums">
+  {console.log(albums, "tu hermana")}
     <h3>Albums</h3>
     <div className="row">
       {albums.map(album => (
